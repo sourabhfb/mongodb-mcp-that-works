@@ -1,0 +1,45 @@
+{
+  "name": "@sourabhshegane/mongodb-mcp-that-works",
+  "version": "0.1.1",
+  "description": "A MongoDB MCP server that actually works - with schema discovery, field validation, and all MongoDB operations",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mongodb-that-works": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "mongodb", "database", "model-context-protocol", "claude", "schema-discovery"],
+  "author": "SS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourabhfb/mongodb-that-works.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourabhfb/mongodb-that-works/issues"
+  },
+  "homepage": "https://github.com/sourabhfb/mongodb-that-works#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "mongodb": "^6.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
