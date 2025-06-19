@@ -253,4 +253,4 @@ MIT License - see LICENSE file for details
 
 ---
 
-Made with ❤️ for the Claude Desktop community
+Made out of pain since the official MongoDB MCP didn't work for me
