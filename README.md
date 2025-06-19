@@ -31,7 +31,7 @@ Add to your Claude Desktop configuration file:
   "mcpServers": {
     "mongodb": {
       "command": "npx",
-      "args": ["-y", "@sourabhshegane/mongodb-mcp-that-works"],
+      "args": ["-y", "@sourabhshegane/mongodb-mcp-that-works@latest"],
       "env": {
         "MONGODB_URI": "mongodb+srv://username:password@cluster.mongodb.net/database",
         "MONGODB_DATABASE": "your_database_name"
